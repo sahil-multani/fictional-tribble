@@ -3,4 +3,6 @@ module.exports.emailService = require('./email.service');
 module.exports.tokenService = require('./token.service');
 module.exports.userService = require('./user.service');
 module.exports.blogService = require('./blog.service');
-module.exports.tagsService = require("./tags.service");
+module.exports.tagsService = require('./tags.service');
+module.exports.productService = require('./product.service');
+module.exports.categoryService = require('./category.service');

@@ -7,6 +7,7 @@ const createBlog = {
     content: Joi.string().required(),
     createdBy: Joi.string().custom(objectId).required(),
     tags: Joi.array().items(Joi.string().custom(objectId).required()).required(),
+    thumbnail: Joi.string().required(),
   }),
 };
 

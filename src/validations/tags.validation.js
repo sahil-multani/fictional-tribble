@@ -2,19 +2,15 @@ const Joi = require('joi');
 const { objectId } = require('./custom.validation');
 
 const createTags = {
-  body: Joi.object().keys(
-      {
-		tag: Joi.string(),
-	}
-  ),
+  body: Joi.object().keys({
+    tag: Joi.string(),
+  }),
 };
 
 const getTagss = {
-  query: Joi.object().keys(
-      {
-		tag: Joi.string(),
-	}
-  ),
+  query: Joi.object().keys({
+    tag: Joi.string(),
+  }),
 };
 
 const getTags = {
@@ -29,8 +25,8 @@ const updateTags = {
   }),
   body: Joi.object()
     .keys({
-		tag: Joi.string(),
-	})
+      tag: Joi.string(),
+    })
     .min(1),
 };
 
