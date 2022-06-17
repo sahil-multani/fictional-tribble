@@ -4,3 +4,4 @@ module.exports.Blog = require('./blog.model');
 module.exports.Tags = require('./tags.model');
 module.exports.Product = require('./product.model');
 module.exports.Category = require('./category.model');
+module.exports.SubCategory = require("./subCategory.model");

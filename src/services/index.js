@@ -6,3 +6,4 @@ module.exports.blogService = require('./blog.service');
 module.exports.tagsService = require('./tags.service');
 module.exports.productService = require('./product.service');
 module.exports.categoryService = require('./category.service');
+module.exports.subCategoryService = require("./subCategory.service");

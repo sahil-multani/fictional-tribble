@@ -7,6 +7,7 @@ const tagsRoute = require('./tags.route');
 const config = require('../../config/config');
 const productRoute = require('./product.route');
 const categoryRoute = require('./category.route');
+const subCategoryRoute = require('./subCategory.route');
 
 const router = express.Router();
 
@@ -14,6 +15,10 @@ const defaultRoutes = [
   {
     path: '/product',
     route: productRoute,
+  },
+  {
+    path: '/subCategory',
+    route: subCategoryRoute,
   },
   {
     path: '/category',
